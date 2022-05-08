@@ -18,8 +18,7 @@ tablero = [
 def mostrarTablero(tablero):
     for i in range(len(tablero)):
         if i % 3 == 0 and i != 0:
-            print("- - - - - - - - - - - - - ")
-
+            
         for j in range(len(tablero[0])):
             if j % 3 == 0 and j != 0:
                 print(" | ", end="")
